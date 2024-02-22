@@ -39,7 +39,7 @@ const Crear = () => {
                 </strong>
 
                 <form onSubmit={conseguirDatosForm}>
-                    <input
+                    <inputz
                         type="text"
                         id="title"
                         name='titulo'
