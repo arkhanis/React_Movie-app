@@ -26,7 +26,34 @@ const Crear = () => {
             descripcion
         }
 
+        // Guardar estado
         setPeliState(peli);
+    
+        guardarEnStorage(peli);
+    }
+
+    // Guardar en el almacenamiento local
+    const guardarEnStorage = peli => {
+
+        // Conseguir los elementos que ya tenemos en localStorage
+        let elementos = JSON.parse(localStorage.getItem("pelis"));
+
+        // Comprobar si es un array
+        if(Array.isArray(elementos)){
+            // Añadir dentro del array un elemento nuevo
+            elementos.push(peli);
+        
+        } else {
+            // Crear un array con la nueva peli
+            elementos = [peli];
+        }
+
+        // Guardar en el localStorage
+        localStorage.setItem("pelis", JSON.stringify(elementos));
+
+        // Devolver objeto guardado
+        return peli;
+
     }
 
     return (
@@ -39,7 +66,7 @@ const Crear = () => {
                 </strong>
 
                 <form onSubmit={conseguirDatosForm}>
-                    <inputz
+                    <input
                         type="text"
                         id="title"
                         name='titulo'
