@@ -6,6 +6,7 @@ import Crear from './components/Crear'
 
 function App() {
 
+  const [listadoState, setListadoState] = useState([]);
 
   return (
     <>
@@ -29,13 +30,18 @@ function App() {
 
         {/* Listado de peliculas */}
         <section id="content" className="content">
-          <Listado />
+          <Listado
+            listadoState={listadoState}
+            setListadoState={setListadoState}
+          />
         </section>
 
         <aside className="lateral">
           <Buscador />
 
-          <Crear />
+          <Crear 
+            setListadoState={setListadoState}
+          />
         </aside>
 
         <footer className="footer">
