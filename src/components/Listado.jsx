@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import Editar from './Editar';
 
+// Hooks
+
 const Listado = ({ listadoState, setListadoState }) => {
 
-    // Hooks
+const [editar, setEditar] = useState(0);  
+
     // const [listadoState, setListadoState] = useState([]);
 
     useEffect(() => {
         console.log('Componente de listado de pelicula cargado!');
         conseguirPeliculas();
     }, []);
-
-    const [editar, setEditar] = useState(0);
 
     // Funciones
     const conseguirPeliculas = () => {
@@ -50,7 +51,7 @@ const Listado = ({ listadoState, setListadoState }) => {
                                 onClick={() => setEditar(peli.id)}
                             >Editar</button>
 
-                            <button
+                            <button 
                                 className="delete"
                                 onClick={() => borrarPeli(peli.id)}
                             >Borrar</button>
@@ -60,6 +61,8 @@ const Listado = ({ listadoState, setListadoState }) => {
                                 <Editar 
                                     peli={peli}
                                     conseguirPeliculas={conseguirPeliculas}
+                                    setEditar={setEditar}
+                                    setListadoState={setListadoState}
                                 />
                             )}
 
