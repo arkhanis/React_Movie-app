@@ -29,12 +29,10 @@ const Crear = ({setListadoState}) => {
 
         // Guardar estado
         setPeliState(peli);
-
         // Actualizar estado
         setListadoState(elementos => {
-            return [ ...elementos, peli];
+            return [ ...elementos, peli]
         })
-        
         // Guardar en local storage
         GuardarEnStorage("pelis", peli);
         
