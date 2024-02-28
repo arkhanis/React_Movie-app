@@ -1,7 +1,7 @@
 # Project: React Movie app
 
 ## About the project 🌟
-### [Live Demo](https://arkhanis.github.io/LandingPage-agency/)
+### [Live Demo](https://appmovie-practice.netlify.app)
 ### `Description:` 
 This project is for the sole purpose of practicing React.
 ### `Features:`
