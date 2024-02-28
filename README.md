@@ -5,8 +5,12 @@
 ### `Description:` 
 This project is for the sole purpose of practicing React.
 ### `Features:`
-- Responsive for all devices.
 - Build using React.
+- "Add movies" Module
+- "Search" Module
+- "Editing entered films" Module
+- "Delete entered movies" Module
+- Saved in LocalStorage
 
 ## Tecnologies 🚀
 <!-- Icons taken from: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
