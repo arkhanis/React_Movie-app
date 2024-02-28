@@ -1,8 +1,30 @@
-# React + Vite
+# Project: React Movie app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the project 🌟
+### [Live Demo](https://arkhanis.github.io/LandingPage-agency/)
+### `Description:` 
+This project is for the sole purpose of practicing React.
+### `Features:`
+- Responsive for all devices.
+- Build using React.
 
-Currently, two official plugins are available:
+## Tecnologies 🚀
+<!-- Icons taken from: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
+[![REACT](https://img.shields.io/badge/React-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://es.wikipedia.org/wiki/JavaScript)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!--
+[![BOOSTRAP](https://img.shields.io/badge/boostrap-7952b3?style=for-the-badge&logo=boostrap&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
+-->
+
+## Project preview 🖼️
+![Captura del proyecto](https://github.com/arkhanis/LandingPage-agency/blob/master/assets/images/screenshot.png)
+
+
+## Installation 💻
+This project does not require installation. Simply open the link
+
+
+## You can find me at 🌎
+* [casanovac@gmail.com](casanovac@gmail.com)
+* [LinkedIn](https://www.linkedin.com/in/cesar-casanova/)
+* [Porfolio web](https://casanovacesar.com/)
