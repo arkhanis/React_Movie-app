@@ -17,11 +17,11 @@ This project is for the sole purpose of practicing React.
 -->
 
 ## Project preview 🖼️
-![Captura del proyecto](https://github.com/arkhanis/LandingPage-agency/blob/master/assets/images/screenshot.png)
+![Captura del proyecto](https://github.com/arkhanis/React_Movie-app/blob/main/Screenshot)
 
 
 ## Installation 💻
-This project does not require installation. Simply open the link
+This project does not require installation. Simply open the link "LIVE DEMO"
 
 
 ## You can find me at 🌎
