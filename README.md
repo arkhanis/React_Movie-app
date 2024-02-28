@@ -10,7 +10,7 @@ This project is for the sole purpose of practicing React.
 
 ## Tecnologies 🚀
 <!-- Icons taken from: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
-[![REACT](https://img.shields.io/badge/React-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://es.wikipedia.org/wiki/JavaScript)
+[![REACT](https://img.shields.io/badge/React-61DBFB?style=for-the-badge&logo=react&logoColor=black)](https://es.wikipedia.org/wiki/ReactJs)
 
 <!--
 [![BOOSTRAP](https://img.shields.io/badge/boostrap-7952b3?style=for-the-badge&logo=boostrap&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
