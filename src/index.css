@@ -134,6 +134,10 @@ input[type="button"]{
   transition: all 300ms;
 }
 
+.no-encontrado{
+  color: red;
+}
+
 .peli-item .edit{
   margin-right: 4px;
 }
